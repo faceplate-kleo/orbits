@@ -1,5 +1,7 @@
 pub mod constants;
 pub mod orbmech;
+pub mod kepler;
+pub mod spacecraft;
 
 
 extern crate vecmath;

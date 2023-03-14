@@ -7,16 +7,6 @@ pub struct PlanetSystem {
 }
 
 
-pub struct KeplerOrbit {
-    pub eccentricity: f64,
-    pub semimajor_axis: f64,
-    pub inclination: f64,
-    pub longitude_an: f64,
-    pub arg_periapsis: f64,
-    pub true_anomaly: f64
-
-}
-
 pub fn au_to_km(dist_au: &f64) -> f64 {
     return dist_au * 149597870.700_f64;
 }
